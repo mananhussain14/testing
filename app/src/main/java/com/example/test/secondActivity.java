@@ -29,6 +29,7 @@ public class secondActivity extends AppCompatActivity {
         @Override
         public void run() {
             Log.d(TAG, "run: "+ this.getName());
+            Log.d(TAG, "run: "+ this.getName());
         }
     }
 
