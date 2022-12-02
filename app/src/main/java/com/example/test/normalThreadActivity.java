@@ -4,13 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.SystemClock;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
-public class secondActivity extends AppCompatActivity {
+public class normalThreadActivity extends AppCompatActivity {
     private static final String TAG = "secondActivity";
     Handler handler;
     Boolean stopThread;

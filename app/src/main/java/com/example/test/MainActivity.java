@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 import org.chromium.net.CronetEngine;
@@ -12,7 +11,6 @@ import org.chromium.net.UrlRequest;
 import org.chromium.net.UrlResponseInfo;
 
 import java.util.concurrent.Executor;
-import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class MainActivity extends AppCompatActivity {
@@ -47,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void secondActivity(View view) {
-        Intent intent = new Intent(MainActivity.this,secondActivity.class
+        Intent intent = new Intent(MainActivity.this, normalThreadActivity.class
         );
         startActivity(intent);
     }
